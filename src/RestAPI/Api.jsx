@@ -3,7 +3,7 @@ import axios from 'axios'
 
 const Api = () => {
   const [data, setData] = useState([])
-
+ 
   useEffect(() => {
     axios.get('https://dummyjson.com/products')
       .then((res) => {
