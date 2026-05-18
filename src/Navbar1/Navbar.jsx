@@ -37,12 +37,12 @@
 import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
-    <nav>
-        <link to='/index'>LOGO</link>
+    <nav className='navbar navbar-dark bg-dark navbar-expand-lg'>
+        <Link to='/index' className='navbar-brand'>LOGO</Link>
         <div className='ms-auto'>
             <ul className='navbar-nav'>
-                <li><link to='/index'>Home</link></li>
-                <li><link to='/contact'>Contact</link></li>
+                <li><Link to='/index'className='nav-link'>Home</Link></li>
+                <li><Link to='/contact' className='nav-link'>Contact</Link></li>
             </ul>
         </div>
     </nav>
