@@ -8,7 +8,7 @@ let Navbar = ()=>{
                         <li><a href="/index" className="nav-link">Home</a></li>
                         <li><a href="/index" className="nav-link">About</a></li>
                         <li><a href="/services" className="nav-link">Services</a></li>
-                        <li><a href="/employees" className="nav-link">Employees</a></li>
+
                         <li><a href="/contact" className="nav-link">Contact</a></li>
                         <li><a href="/login" className="nav-link">Login</a></li>
                     </ul>
