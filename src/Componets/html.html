@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Data Attribute Example</title>
+</head>
+<body>
+
+  <button id="btn" data-name="Uday">
+    Click Me
+  </button> 
+
+  <script>
+
+    const btn = document.getElementById("btn");
+
+    btn.addEventListener("click", function () {
+
+      const username = btn.dataset.name;
+
+      alert("User Name is: " + username);
+
+    });
+
+  </script>
+
+</body>
+</html>

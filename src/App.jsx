@@ -5,7 +5,8 @@
 // import Login from './Componets/Login';
 // import '../node_modules/bootstrap/dist/css/bootstrap.css'
 
-import CompA from "./Propsdrilling/CompA";
+import Counter from "./Componets/Counter";
+//import CompA from "./Propsdrilling/CompA";
 
 function App() {
   return (
@@ -20,8 +21,8 @@ function App() {
           <Route path='/login' element={<Login />} />
         </Routes>
     */}
-    <CompA/>
+    <Counter/>
     </div>
   );
 }
-export default App;
+export default App;   
